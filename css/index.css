@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #5C43C1;
+}
+
+/* top message */
+.top-text {
+    text-align: center;
+    color: rgb(154, 149, 149);
+    margin: 15px 0px 15px 0px;
+}
+
+.text-color {
+    color: white;
+}
+
+.text-position {
+    padding: 0px 15px 0px 15px;
+}
+
+.text-colors {
+    text-decoration: underline;
+    color: white;
+}
+
+.text-colors:hover {
+    color: red;
+}
+
+.btn {
+    padding: 3px 6px 3px 6px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* header section */
+section {
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.parent-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.child-container {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    width: 150px;
+}
+
+/* navbar */
+.child-container {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    transition: 1s;
+}
+
+ul {
+    display: flex;
+}
+
+li .hovers:hover {
+    border-bottom: 3px solid #5C43C1;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+ul li a{
+    font-weight: bold;
+    color: black;
+    margin: 0px 20px 0px 20px;
+}
+
+sup {
+    font-size: 10px;
+    color: red;
+    padding: 3px;
+    background-color: rgb(243, 163, 134);
+    border-radius: 3px;
+}
+
+.fa-gift {
+    color: red;
+    padding-right: 5px;
+}
+
+.fa-user {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 1px solid wheat;
+}
+
+/* button */
+.join-btn {
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    border: 1px solid wheat;
+    background-color: white;
+}
+.join-btn:hover {
+    color: white;
+    background-color: #5C43C1;
+    transition: 0.5s;
+}
+
+/* bottom header */
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.grad {
+    font-size: 40px;
+}
+
+.h1-text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-cr {
+    color: gray;
+}
+
+/* main section */
+.main-section {
+    display: flex;
+}
+
+
+/* left side */
+h2 {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.catergories {
+    background-color: #F0F4F8;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.ul {
+    display: block;
+    font-weight: normal;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+li a:hover {
+    color: gray;
+}
+
+.left-section {
+    margin-bottom: 100px;
+}
+
+.left-child-section {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F0F4F8;
+}
+
+.filter {
+    display: block;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.uls-1 {
+    color: grey;
+    display: block;
+    font-weight: normal;
+    padding: 20px;
+    border-radius: 50px;
+    height: 80px;
+    overflow: scroll;
+}
+
+.uls-2 {
+    color: grey;
+    display: block;
+    font-weight: normal;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px 0px 20px 0px;
+}
+
+.label {
+    color: gray;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.btn-go {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #5C43C1;
+}
+
+/* right side */
+.right-sections {
+    width: 100%;
+}
+
+.sm-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+select {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px 10px 0px;
+    background-color:  #F0F4F8;
+}
+
+/* product section */
+.product-card {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.products {
+    width: 100%;
+}
+
+.product-images {
+    column-count: 4;
+    text-align: center;
+}
+
+.image {
+    border: 1px solid #c5ccd4;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.one:hover {
+    width: 100px;
+    transition: 1s;
+}
+
+.page-button {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.page-btn {
+    color: rgb(82, 76, 76);
+    background-color: white;
+    padding: 9px 10px 9px 10px;
+    border: 1px solid rgb(207, 202, 193);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.page-btn:hover {
+    border: 1px solid #5C43C1;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.btns {
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #5C43C1;
+}
+
+
+/* footer section */
+footer {
+    background-color: rgb(210, 201, 201);
+    text-align: center;
+}
+
+h1, .font-size {
+    font-size: 40px;
+}
+
+.footer-text {
+    font-size: medium;
+}
+
+.footer-btn {
+    margin-top: 50px;
+    font-weight: bold;
+    padding: 15px 40px 15px 40px;
+    margin-right: 30px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #5C43C1;
+}
+
+.footer-btns {
+    margin-top: 50px;
+    font-weight: bold;
+    padding: 15px 40px 15px 40px;
+    margin-right: 30px;
+    border-radius: 25px;
+    border: 1px solid #5C43C1;
+    color: black;
+}
+
+.footer-btns:hover {
+    color: white;
+    background-color: #5C43C1;
+    transition: 0.5s;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    width: 100%;
+}
+
+.footer-image img {
+    width: 150px;
+}
+
+.navs {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.lists li{
+    margin-right: 20px;
+}
+
+.bottom-message {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
